@@ -12,7 +12,7 @@ import os, glob, sys
 from keras.preprocessing import image as kImage
 #from skimage.transform import pyramid_gaussian
 from keras.models import load_model
-from scipy.misc import imsave#, imresize
+from imageio import imsave#, imresize
 import gc
 
 
